@@ -61,17 +61,17 @@ workspace {
 
     views {
 
-        systemContext ecommerceSystem "Diagram1" {
+        systemContext ecommerceSystem "Context" {
             include * emailSystem
             autoLayout
         }
 
-        container ecommerceSystem "Diagram2" {
+        container ecommerceSystem "Container" {
             include *
             #autoLayout
         }
 
-        component apiContainer "Diagram3" {
+        component apiContainer "Compoent" {
             include * customerPerson warehousePerson
             autoLayout
         }
